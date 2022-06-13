@@ -1,0 +1,108 @@
+/*
+    Keyword Planner Tool by Mediaworx
+    Template Styles
+
+    Created on : Oct 13, 2015, 11:33:17 AM
+    Author     : Stefan Pflug
+*/
+
+html {
+    background-color: #DDD;
+}
+
+body {
+    width: 60%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 50px auto 20px;
+    border: 15px solid #3e3e3c;
+    padding: 15px 20px 30px;
+    font-family: Calibri;
+    background-color: #FFF;
+}
+header {
+    margin: 0px 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+header .branding {}
+header .message {
+    padding: 10px;
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+}
+header .message span {
+    padding: 10px 20px;
+    line-height: 17px;
+    max-width: 260px;
+}
+header .message span.error {
+    border-right: 5px solid #C66;
+    color: #C66;
+    background-color: #FDD;
+}
+header .message span.google {
+    border-right: 5px solid #FBBC05;
+    color: #FBBC05;
+    background-color: #fbf2d7;
+}
+hr {
+    width: 100%;
+}
+header .branding img {
+    max-width: 100%;
+}
+em {
+    margin-left: 4px;
+    color: #777;
+}
+.keyword-tool {}
+.keyword-tool form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.keyword-tool .field {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 5px 0px;
+}
+.keyword-tool .field .info {
+    width: 200px;
+}
+.keyword-tool .field .element {
+    flex-grow: 1;
+}
+.keyword-tool .field .element textarea {
+    max-width: 490px;
+    min-width: 200px;
+    width: 100%;
+    height: 30%;
+    max-height: 400px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+input[type=file] {
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    line-height: 20px;
+    padding: 5px 14px;
+}
+.devteam {
+    margin-top: 20px;
+    background: #F0F0F0;
+    padding: 10px;
+    border-left: 15px solid #777;
+    color: #777;
+}
+.devteam span {
+    
+}
+.devteam .element {
+    margin-top: 5px;
+}
